@@ -2,11 +2,10 @@ public class HelloGradeScope{
 	
 	public HelloGradeScope(){
 	}
-	
 	public String sayHello(){
-		return "Hello GradeScope";
+		return "Hello World!";
 	}
-	// Function
+	// Main Method
 	public static void main(String[] args) {
 	       HelloGradeScope hello = new HelloGradeScope();
 	       System.out.println(hello.sayHello());
